@@ -132,3 +132,21 @@ var answerReview3to4 = ["coast",
 
 var unitReview3to4 = [['3to4','written',answerReview3to4.length]];
 
+//Review 5&6
+var answerReview5to6 = ["amaze",
+"interval",
+"ordeal",
+"elect",
+"credit",
+"arctic",
+"court",
+"schedule",
+"rig",
+"limit",
+"continent",
+"gust",
+"tackle",
+"plateau",
+"enable"]
+
+var unitReview5to6 = [['5to6','written',answerReview5to6.length]];
