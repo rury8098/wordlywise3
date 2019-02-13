@@ -14,7 +14,7 @@ function checkSingleSelect(correct, section, section) {
             document.getElementById(section + i).textContent = "😃"
             i++;
         } else {
-            document.getElementById(section + i).textContent = "☹️"
+            document.getElementById(section + i).textContent = "❌"
             i++;
         }
     };
@@ -72,7 +72,7 @@ function checkWritten(correct, questionid, section) {
             document.getElementById("result" + section + (i + 1)).textContent = "😃";
             i++;
         } else {
-            document.getElementById("result" + section + (i + 1)).textContent = "☹️";
+            document.getElementById("result" + section + (i + 1)).textContent = "❌";
             i++;
         }
     };
@@ -106,7 +106,7 @@ function checkMultipleSelect(correct, name, id) {
             document.getElementById(id + (i + 1)).textContent = "😃"
         }
         else {
-            document.getElementById(id + (i + 1)).textContent = "☹️"
+            document.getElementById(id + (i + 1)).textContent = "❌"
         }
         counter = 0;
     }
