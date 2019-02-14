@@ -122,6 +122,15 @@ var unit8 = [['A','CI',answer8A.length],
 ['C','single',answer8C.length],
 ['D','multiple',answer8D.length]];
 
+//Unit 9
+var answer9A = ['d','c','d','b','d','a','c','b'];
+var answer9B = ['individual','defend','survey','miserable','solution','hinted','gradual','malice'];
+var answer9C = ['d','a','c','a','d','b','d']
+
+var unit9 = [['A','single',answer9A.length],
+['B','written',answer9B.length],
+['C','single',answer9C.length]];
+
 //Review 1&2 (unit# = 'Review' section ='1to2')
 var answerReview1to2 = ['launch','examie','scar',
 'opposite',
@@ -184,3 +193,22 @@ var answerReview5to6 = ["amaze",
 "enable"]
 
 var unitReview5to6 = [['5to6','written',answerReview5to6.length]];
+
+//Review 7&8
+var answerReview7to8 = ["vanish", 
+"transparent", 
+"spines", 
+"digest", 
+"act", 
+"container", 
+"memorize", 
+"advice", 
+"crumple", 
+"hinge", 
+"nursery", 
+"fan", 
+"thrive", 
+"marsh", 
+"habit"]
+
+var unitReview7to8 = [['7to8','written',answerReview7to8.length]];
