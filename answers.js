@@ -207,8 +207,13 @@ var answerReview7to8 = ["vanish",
 "hinge", 
 "nursery", 
 "fan", 
+"finicky", 
 "thrive", 
 "marsh", 
-"habit"]
+"habit", 
+"additional", 
+"pause", 
+"mystify", 
+"rely"]
 
 var unitReview7to8 = [['7to8','written',answerReview7to8.length]];
