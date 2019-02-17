@@ -131,7 +131,7 @@ var unit9 = [['A','single',answer9A.length],
 ['B','written',answer9B.length],
 ['C','single',answer9C.length]];
 
-//Unit 8
+//Unit 10
 
 var answer10A = ["ciic", 
 "icci", 
@@ -165,14 +165,14 @@ var unit10 = [['A','CI',answer10A.length],
 ['C','single',answer10C.length],
 ['D','multiple',answer10D.length]];
 
-//Unit 10
-var answer10A = ['a','d','c','a','b','d','c','b'];
-var answer10B = ['vigorous','stress','graduates','diagram','frustrating','risk','urging'];
-var answer10C = ['c','d','a','b','d','a','c']
+//Unit 11
+var answer11A = ['a','d','c','a','b','d','c','b'];
+var answer11B = ['vigorous','stress','graduates','diagram','frustrating','risk','urging'];
+var answer11C = ['c','d','a','b','d','a','c']
 
-var unit9 = [['A','single',answer10A.length],
-['B','written',answer10B.length],
-['C','single',answer10C.length]];
+var unit11 = [['A','single',answer11A.length],
+['B','written',answer11B.length],
+['C','single',answer11C.length]];
 
 //Review 1&2 (unit# = 'Review' section ='1to2')
 var answerReview1to2 = ['launch','examie','scar',
