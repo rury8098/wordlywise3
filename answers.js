@@ -158,13 +158,21 @@ var answer10C = ["c",
 "a", 
 "a"
 ];
-var answer10D = [['a', 'b', 'd'],['a', 'b', 'd'],['a', 'c', 'd'],['a', 'c', 'd'],['b', 'c', 'd']];
+var answer10D = [['a', 'b', 'd'],['a', 'b', 'd'],['a', 'c', 'd'],['a','b','c'],['a', 'c', 'd'],['b', 'c', 'd']];
 
 var unit10 = [['A','CI',answer10A.length],
 ['B','single',answer10B.length],
 ['C','single',answer10C.length],
 ['D','multiple',answer10D.length]];
 
+//Unit 10
+var answer10A = ['a','d','c','a','b','d','c','b'];
+var answer10B = ['vigorous','stress','graduates','diagram','frustrating','risk','urging'];
+var answer10C = ['c','d','a','b','d','a','c']
+
+var unit9 = [['A','single',answer10A.length],
+['B','written',answer10B.length],
+['C','single',answer10C.length]];
 
 //Review 1&2 (unit# = 'Review' section ='1to2')
 var answerReview1to2 = ['launch','examie','scar',
@@ -252,3 +260,26 @@ var answerReview7to8 = ["vanish",
 "rely"]
 
 var unitReview7to8 = [['7to8','written',answerReview7to8.length]];
+
+//Review 9&10
+var answerReview9to10 = ["structure", 
+"method", 
+"defend", 
+"cable", 
+"solution", 
+"misery", 
+"rod", 
+"device", 
+"convey", 
+"cathedral", 
+"survey", 
+"landmark", 
+"shaft", 
+"gradual", 
+"malice", 
+"attitude", 
+"hint", 
+"freight"
+]
+
+var unitReview9to10 = [['9to10','written',answerReview9to10.length]];
