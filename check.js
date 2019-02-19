@@ -80,10 +80,10 @@ function checkWritten(correct, questionid, section) {
 }
 
 function checkMultipleSelect(correct, name, id) {
-    var studentAnswers = [[], [], [], [], []]
+    var studentAnswers = [[], [], [], [], [],[],[],[]]
     var counter = 0;
 
-    for (var k = 0; k < 5; k++) {
+    for (var k = 0; k < 8; k++) {
         for (var i = 0; i < 4; i++) {
             if (document.getElementsByName(name + (k + 1))[i].checked) {
                 studentAnswers[k].push(document.getElementsByName(name + (k + 1))[i].value)
@@ -91,7 +91,7 @@ function checkMultipleSelect(correct, name, id) {
         }
     }
 
-    for (var i = 0; i < 5; i++) {
+    for (var i = 0; i < 8; i++) {
         if (correct[i].length != studentAnswers[i].length) {
             counter++;
         }
