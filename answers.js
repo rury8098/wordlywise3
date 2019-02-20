@@ -223,6 +223,39 @@ var unit13 = [['A','single',answer13A.length],
 ['B','written',answer13B.length],
 ['C','single',answer13C.length]];
 
+//Unit 14
+
+var answer14A = ["iicc", 
+"cici", 
+"ciic", 
+"iccc", 
+"ccic", 
+"icic", 
+"iccc", 
+"icci"];
+var answer14B = ["d", 
+"b", 
+"a", 
+"c", 
+"a", 
+"d", 
+"a"
+];
+var answer14C = ["d", 
+"b", 
+"a", 
+"c", 
+"a", 
+"d", 
+"a"
+];
+var answer14D = [['a', 'b', 'c'],['a', 'b', 'd'],['a', 'c', 'd'],['b','c','d'],['a', 'b', 'd'],['b', 'c', 'd']];
+
+var unit14 = [['A','CI',answer4A.length],
+['B','single',answer14B.length],
+['C','single',answer14C.length],
+['D','multiple',answer14D.length]];
+
 //Review 1&2 (unit# = 'Review' section ='1to2')
 var answerReview1to2 = ['launch','examie','scar',
 'opposite',
